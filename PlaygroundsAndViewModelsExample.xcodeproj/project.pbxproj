@@ -14,6 +14,11 @@
 		B0D0EDF51EBBDB95008687F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D0EDF31EBBDB95008687F4 /* LaunchScreen.storyboard */; };
 		B0D0EE001EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0EDFF1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.swift */; };
 		B0D0EE0B1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0EE0A1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.swift */; };
+		B0D0EE191EBBDE8D008687F4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0EE181EBBDE8D008687F4 /* GridView.swift */; };
+		B0D0EE281EBBE4B8008687F4 /* GridViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0EE1F1EBBE4B7008687F4 /* GridViewUI.framework */; };
+		B0D0EE2D1EBBE4B8008687F4 /* GridViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0EE2C1EBBE4B8008687F4 /* GridViewUITests.swift */; };
+		B0D0EE2F1EBBE4B8008687F4 /* GridViewUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D0EE211EBBE4B7008687F4 /* GridViewUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D0EE361EBBE4CD008687F4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0EE181EBBDE8D008687F4 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,13 @@
 			remoteGlobalIDString = B0D0EDE61EBBDB95008687F4;
 			remoteInfo = PlaygroundsAndViewModelsExample;
 		};
+		B0D0EE291EBBE4B8008687F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D0EDDF1EBBDB95008687F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D0EE1E1EBBE4B7008687F4;
+			remoteInfo = GridViewUI;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +59,13 @@
 		B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundsAndViewModelsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0EE0A1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundsAndViewModelsExampleUITests.swift; sourceTree = "<group>"; };
 		B0D0EE0C1EBBDB96008687F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D0EE181EBBDE8D008687F4 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		B0D0EE1F1EBBE4B7008687F4 /* GridViewUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GridViewUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D0EE211EBBE4B7008687F4 /* GridViewUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridViewUI.h; sourceTree = "<group>"; };
+		B0D0EE221EBBE4B7008687F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D0EE271EBBE4B8008687F4 /* GridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D0EE2C1EBBE4B8008687F4 /* GridViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewUITests.swift; sourceTree = "<group>"; };
+		B0D0EE2E1EBBE4B8008687F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +90,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0D0EE1B1EBBE4B7008687F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D0EE241EBBE4B8008687F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D0EE281EBBE4B8008687F4 /* GridViewUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +114,8 @@
 				B0D0EDE91EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */,
 				B0D0EDFE1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests */,
 				B0D0EE091EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests */,
+				B0D0EE201EBBE4B7008687F4 /* GridViewUI */,
+				B0D0EE2B1EBBE4B8008687F4 /* GridViewUITests */,
 				B0D0EDE81EBBDB95008687F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +126,8 @@
 				B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModelsExample.app */,
 				B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.xctest */,
 				B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.xctest */,
+				B0D0EE1F1EBBE4B7008687F4 /* GridViewUI.framework */,
+				B0D0EE271EBBE4B8008687F4 /* GridViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +137,7 @@
 			children = (
 				B0D0EDEA1EBBDB95008687F4 /* AppDelegate.swift */,
 				B0D0EDEC1EBBDB95008687F4 /* ViewController.swift */,
+				B0D0EE181EBBDE8D008687F4 /* GridView.swift */,
 				B0D0EDEE1EBBDB95008687F4 /* Main.storyboard */,
 				B0D0EDF11EBBDB95008687F4 /* Assets.xcassets */,
 				B0D0EDF31EBBDB95008687F4 /* LaunchScreen.storyboard */,
@@ -125,7 +164,36 @@
 			path = PlaygroundsAndViewModelsExampleUITests;
 			sourceTree = "<group>";
 		};
+		B0D0EE201EBBE4B7008687F4 /* GridViewUI */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0EE211EBBE4B7008687F4 /* GridViewUI.h */,
+				B0D0EE221EBBE4B7008687F4 /* Info.plist */,
+			);
+			path = GridViewUI;
+			sourceTree = "<group>";
+		};
+		B0D0EE2B1EBBE4B8008687F4 /* GridViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0EE2C1EBBE4B8008687F4 /* GridViewUITests.swift */,
+				B0D0EE2E1EBBE4B8008687F4 /* Info.plist */,
+			);
+			path = GridViewUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B0D0EE1C1EBBE4B7008687F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D0EE2F1EBBE4B8008687F4 /* GridViewUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */ = {
@@ -181,6 +249,42 @@
 			productReference = B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B0D0EE1E1EBBE4B7008687F4 /* GridViewUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D0EE341EBBE4B8008687F4 /* Build configuration list for PBXNativeTarget "GridViewUI" */;
+			buildPhases = (
+				B0D0EE1A1EBBE4B7008687F4 /* Sources */,
+				B0D0EE1B1EBBE4B7008687F4 /* Frameworks */,
+				B0D0EE1C1EBBE4B7008687F4 /* Headers */,
+				B0D0EE1D1EBBE4B7008687F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridViewUI;
+			productName = GridViewUI;
+			productReference = B0D0EE1F1EBBE4B7008687F4 /* GridViewUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0D0EE261EBBE4B8008687F4 /* GridViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D0EE351EBBE4B8008687F4 /* Build configuration list for PBXNativeTarget "GridViewUITests" */;
+			buildPhases = (
+				B0D0EE231EBBE4B8008687F4 /* Sources */,
+				B0D0EE241EBBE4B8008687F4 /* Frameworks */,
+				B0D0EE251EBBE4B8008687F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D0EE2A1EBBE4B8008687F4 /* PBXTargetDependency */,
+			);
+			name = GridViewUITests;
+			productName = GridViewUITests;
+			productReference = B0D0EE271EBBE4B8008687F4 /* GridViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +312,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = B0D0EDE61EBBDB95008687F4;
 					};
+					B0D0EE1E1EBBE4B7008687F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6RV5CH2XTD;
+						ProvisioningStyle = Automatic;
+					};
+					B0D0EE261EBBE4B8008687F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6RV5CH2XTD;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = B0D0EDE21EBBDB95008687F4 /* Build configuration list for PBXProject "PlaygroundsAndViewModelsExample" */;
@@ -226,6 +340,8 @@
 				B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */,
 				B0D0EDFA1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests */,
 				B0D0EE051EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests */,
+				B0D0EE1E1EBBE4B7008687F4 /* GridViewUI */,
+				B0D0EE261EBBE4B8008687F4 /* GridViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0D0EE1D1EBBE4B7008687F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D0EE251EBBE4B8008687F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D0EDED1EBBDB95008687F4 /* ViewController.swift in Sources */,
+				B0D0EE191EBBDE8D008687F4 /* GridView.swift in Sources */,
 				B0D0EDEB1EBBDB95008687F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +414,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0D0EE1A1EBBE4B7008687F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D0EE361EBBE4CD008687F4 /* GridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D0EE231EBBE4B8008687F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D0EE2D1EBBE4B8008687F4 /* GridViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +442,11 @@
 			isa = PBXTargetDependency;
 			target = B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */;
 			targetProxy = B0D0EE071EBBDB96008687F4 /* PBXContainerItemProxy */;
+		};
+		B0D0EE2A1EBBE4B8008687F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D0EE1E1EBBE4B7008687F4 /* GridViewUI */;
+			targetProxy = B0D0EE291EBBE4B8008687F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -497,6 +649,76 @@
 			};
 			name = Release;
 		};
+		B0D0EE301EBBE4B8008687F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GridViewUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.GridViewUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0D0EE311EBBE4B8008687F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GridViewUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.GridViewUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0D0EE321EBBE4B8008687F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				INFOPLIST_FILE = GridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.GridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B0D0EE331EBBE4B8008687F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				INFOPLIST_FILE = GridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.GridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +738,7 @@
 				B0D0EE111EBBDB96008687F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D0EE121EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,12 +747,30 @@
 				B0D0EE141EBBDB96008687F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D0EE151EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D0EE161EBBDB96008687F4 /* Debug */,
 				B0D0EE171EBBDB96008687F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D0EE341EBBE4B8008687F4 /* Build configuration list for PBXNativeTarget "GridViewUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D0EE301EBBE4B8008687F4 /* Debug */,
+				B0D0EE311EBBE4B8008687F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0D0EE351EBBE4B8008687F4 /* Build configuration list for PBXNativeTarget "GridViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D0EE321EBBE4B8008687F4 /* Debug */,
+				B0D0EE331EBBE4B8008687F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
