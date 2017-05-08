@@ -5,6 +5,6 @@
       location = "group:UIPlayground.playground">
    </FileRef>
    <FileRef
-      location = "container:PlaygroundsAndViewModelsExample.xcodeproj">
+      location = "container:/Users/rommel/Documents/github/play/swift/PlaygroundsAndViewModelsExample/PlaygroundsAndViewModels.xcodeproj">
    </FileRef>
 </Workspace>

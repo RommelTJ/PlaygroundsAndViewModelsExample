@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.in-app-payments</key>
 	<array>
-		<string>merchant.com.rommelrico.applepaytest</string>
+		<string>merchant.com.rommelrico.PlaygroundsAndViewModels</string>
 	</array>
 </dict>
 </plist>

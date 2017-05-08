@@ -46,18 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B0A4A74E1EBD2F590061A3E9 /* PlaygroundsAndViewModelsExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlaygroundsAndViewModelsExample.entitlements; sourceTree = "<group>"; };
-		B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModelsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundsAndViewModelsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0289FF31EC0E5D00013EF74 /* PlaygroundsAndViewModelsExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlaygroundsAndViewModelsExample.entitlements; sourceTree = "<group>"; };
+		B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundsAndViewModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0EDEA1EBBDB95008687F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0D0EDEC1EBBDB95008687F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0D0EDEF1EBBDB95008687F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0D0EDF11EBBDB95008687F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0D0EDF41EBBDB95008687F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0D0EDF61EBBDB95008687F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundsAndViewModelsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundsAndViewModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0EDFF1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundsAndViewModelsExampleTests.swift; sourceTree = "<group>"; };
 		B0D0EE011EBBDB96008687F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundsAndViewModelsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundsAndViewModelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0EE0A1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundsAndViewModelsExampleUITests.swift; sourceTree = "<group>"; };
 		B0D0EE0C1EBBDB96008687F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D0EE181EBBDE8D008687F4 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
@@ -124,9 +124,9 @@
 		B0D0EDE81EBBDB95008687F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModelsExample.app */,
-				B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.xctest */,
-				B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.xctest */,
+				B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModels.app */,
+				B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsTests.xctest */,
+				B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsUITests.xctest */,
 				B0D0EE1F1EBBE4B7008687F4 /* GridViewUI.framework */,
 				B0D0EE271EBBE4B8008687F4 /* GridViewUITests.xctest */,
 			);
@@ -136,7 +136,7 @@
 		B0D0EDE91EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */ = {
 			isa = PBXGroup;
 			children = (
-				B0A4A74E1EBD2F590061A3E9 /* PlaygroundsAndViewModelsExample.entitlements */,
+				B0289FF31EC0E5D00013EF74 /* PlaygroundsAndViewModelsExample.entitlements */,
 				B0D0EDEA1EBBDB95008687F4 /* AppDelegate.swift */,
 				B0D0EDEC1EBBDB95008687F4 /* ViewController.swift */,
 				B0D0EE181EBBDE8D008687F4 /* GridView.swift */,
@@ -198,9 +198,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */ = {
+		B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D0EE0F1EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExample" */;
+			buildConfigurationList = B0D0EE0F1EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModels" */;
 			buildPhases = (
 				B0D0EDE31EBBDB95008687F4 /* Sources */,
 				B0D0EDE41EBBDB95008687F4 /* Frameworks */,
@@ -211,14 +211,14 @@
 			);
 			dependencies = (
 			);
-			name = PlaygroundsAndViewModelsExample;
+			name = PlaygroundsAndViewModels;
 			productName = PlaygroundsAndViewModelsExample;
-			productReference = B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModelsExample.app */;
+			productReference = B0D0EDE71EBBDB95008687F4 /* PlaygroundsAndViewModels.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B0D0EDFA1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests */ = {
+		B0D0EDFA1EBBDB96008687F4 /* PlaygroundsAndViewModelsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D0EE121EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExampleTests" */;
+			buildConfigurationList = B0D0EE121EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsTests" */;
 			buildPhases = (
 				B0D0EDF71EBBDB96008687F4 /* Sources */,
 				B0D0EDF81EBBDB96008687F4 /* Frameworks */,
@@ -229,14 +229,14 @@
 			dependencies = (
 				B0D0EDFD1EBBDB96008687F4 /* PBXTargetDependency */,
 			);
-			name = PlaygroundsAndViewModelsExampleTests;
+			name = PlaygroundsAndViewModelsTests;
 			productName = PlaygroundsAndViewModelsExampleTests;
-			productReference = B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests.xctest */;
+			productReference = B0D0EDFB1EBBDB96008687F4 /* PlaygroundsAndViewModelsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B0D0EE051EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests */ = {
+		B0D0EE051EBBDB96008687F4 /* PlaygroundsAndViewModelsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D0EE151EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExampleUITests" */;
+			buildConfigurationList = B0D0EE151EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsUITests" */;
 			buildPhases = (
 				B0D0EE021EBBDB96008687F4 /* Sources */,
 				B0D0EE031EBBDB96008687F4 /* Frameworks */,
@@ -247,9 +247,9 @@
 			dependencies = (
 				B0D0EE081EBBDB96008687F4 /* PBXTargetDependency */,
 			);
-			name = PlaygroundsAndViewModelsExampleUITests;
+			name = PlaygroundsAndViewModelsUITests;
 			productName = PlaygroundsAndViewModelsExampleUITests;
-			productReference = B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests.xctest */;
+			productReference = B0D0EE061EBBDB96008687F4 /* PlaygroundsAndViewModelsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		B0D0EE1E1EBBE4B7008687F4 /* GridViewUI */ = {
@@ -332,7 +332,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0D0EDE21EBBDB95008687F4 /* Build configuration list for PBXProject "PlaygroundsAndViewModelsExample" */;
+			buildConfigurationList = B0D0EDE21EBBDB95008687F4 /* Build configuration list for PBXProject "PlaygroundsAndViewModels" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -345,9 +345,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */,
-				B0D0EDFA1EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleTests */,
-				B0D0EE051EBBDB96008687F4 /* PlaygroundsAndViewModelsExampleUITests */,
+				B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModels */,
+				B0D0EDFA1EBBDB96008687F4 /* PlaygroundsAndViewModelsTests */,
+				B0D0EE051EBBDB96008687F4 /* PlaygroundsAndViewModelsUITests */,
 				B0D0EE1E1EBBE4B7008687F4 /* GridViewUI */,
 				B0D0EE261EBBE4B8008687F4 /* GridViewUITests */,
 			);
@@ -459,12 +459,12 @@
 /* Begin PBXTargetDependency section */
 		B0D0EDFD1EBBDB96008687F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */;
+			target = B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModels */;
 			targetProxy = B0D0EDFC1EBBDB96008687F4 /* PBXContainerItemProxy */;
 		};
 		B0D0EE081EBBDB96008687F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModelsExample */;
+			target = B0D0EDE61EBBDB95008687F4 /* PlaygroundsAndViewModels */;
 			targetProxy = B0D0EE071EBBDB96008687F4 /* PBXContainerItemProxy */;
 		};
 		B0D0EE2A1EBBE4B8008687F4 /* PBXTargetDependency */ = {
@@ -594,11 +594,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PlaygroundsAndViewModelsExample/PlaygroundsAndViewModelsExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
 				INFOPLIST_FILE = PlaygroundsAndViewModelsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.PlaygroundsAndViewModelsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.PlaygroundsAndViewModels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -608,11 +611,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PlaygroundsAndViewModelsExample/PlaygroundsAndViewModelsExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
 				INFOPLIST_FILE = PlaygroundsAndViewModelsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.PlaygroundsAndViewModelsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.PlaygroundsAndViewModels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -628,7 +634,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.PlaygroundsAndViewModelsExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaygroundsAndViewModelsExample.app/PlaygroundsAndViewModelsExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaygroundsAndViewModels.app/PlaygroundsAndViewModels";
 			};
 			name = Debug;
 		};
@@ -643,7 +649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.PlaygroundsAndViewModelsExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaygroundsAndViewModelsExample.app/PlaygroundsAndViewModelsExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaygroundsAndViewModels.app/PlaygroundsAndViewModels";
 			};
 			name = Release;
 		};
@@ -748,7 +754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0D0EDE21EBBDB95008687F4 /* Build configuration list for PBXProject "PlaygroundsAndViewModelsExample" */ = {
+		B0D0EDE21EBBDB95008687F4 /* Build configuration list for PBXProject "PlaygroundsAndViewModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D0EE0D1EBBDB96008687F4 /* Debug */,
@@ -757,7 +763,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D0EE0F1EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExample" */ = {
+		B0D0EE0F1EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D0EE101EBBDB96008687F4 /* Debug */,
@@ -766,7 +772,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D0EE121EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExampleTests" */ = {
+		B0D0EE121EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D0EE131EBBDB96008687F4 /* Debug */,
@@ -775,7 +781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D0EE151EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsExampleUITests" */ = {
+		B0D0EE151EBBDB96008687F4 /* Build configuration list for PBXNativeTarget "PlaygroundsAndViewModelsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D0EE161EBBDB96008687F4 /* Debug */,
