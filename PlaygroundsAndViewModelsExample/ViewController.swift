@@ -14,19 +14,18 @@ typealias STPToken = String
 
 final class FakeStripe {
 	static let shared = FakeStripe()
-	
-	func createToken(with payment: PKPayment, callback: @escaping (STPToken?, Error?) -> ()) {
+
+	func createToken(with payment: PKPayment, callback: @escaping (STPToken?, Error?) -> Void) {
 		DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
 			callback("success", nil)
 		}
-		
 	}
 }
 
 final class Webservice {
 	static let shared = Webservice()
-	
-	func processToken(token: STPToken, product: Product, callback: @escaping (Bool) -> ()) {
+
+	func processToken(token: STPToken, product: Product, callback: @escaping (Bool) -> Void) {
 		DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
 			callback(true)
 		}
@@ -52,19 +51,20 @@ class ViewModel {
 	let product: Product
 	var callback: ((State) -> Void)
 	private var didAuthorize: Bool = false
-	
+
 	init(product: Product, callback: @escaping (State) -> Void) {
 		self.product = product
 		self.callback = callback
 		self.callback(state)
 	}
-	
+
 	func buyButtonPressed() {
 		didAuthorize = false
 		state.statusLabelText = "Authorizing..."
 	}
-	
-	func stripeCreatedToken(token: STPToken?, error: Error?, completion: @escaping (PKPaymentAuthorizationStatus) -> Void) {
+
+	func stripeCreatedToken(token: STPToken?, error: Error?,
+	                        completion: @escaping (PKPaymentAuthorizationStatus) -> Void) {
 		if let token = token {
 			Webservice.shared.processToken(token: token, product: self.product, callback: { success in
 				if success {
@@ -83,11 +83,11 @@ class ViewModel {
 			fatalError()
 		}
 	}
-	
+
 	func didAuthorizePayment() {
 		didAuthorize = true
 	}
-	
+
 	func authorizationFinished() {
 		if !didAuthorize {
 			state.statusLabelText = nil
@@ -114,36 +114,38 @@ extension Product {
 class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDelegate {
 	let product = Product(name: "Test product", price: 100)
 	var viewModel: ViewModel!
-	
+
 	@IBOutlet weak var statusLabel: UILabel!
 	@IBOutlet weak var buyButton: UIButton!
-	
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
+
 		viewModel = ViewModel(product: product) { [unowned self] state in
 			self.statusLabel.text = state.statusLabelText
 			self.buyButton.isEnabled = state.buttonIsEnabled
 		}
 	}
-	
+
 	@IBAction func buy(_ sender: Any) {
 		let vc = PKPaymentAuthorizationViewController(paymentRequest: product.paymentRequest)
 		vc.delegate = self
 		viewModel.buyButtonPressed()
 		self.present(vc, animated: true, completion: nil)
 	}
-	
-	func paymentAuthorizationViewController(_ controller: PKPaymentAuthorizationViewController, didAuthorizePayment payment: PKPayment, completion: @escaping (PKPaymentAuthorizationStatus) -> Void) {
+
+	func paymentAuthorizationViewController(_ controller: PKPaymentAuthorizationViewController,
+	                                        didAuthorizePayment payment: PKPayment,
+	                                        completion: @escaping (PKPaymentAuthorizationStatus) -> Void) {
 		self.viewModel.didAuthorizePayment()
 		FakeStripe.shared.createToken(with: payment) { (token, error) in
 			self.viewModel.stripeCreatedToken(token: token, error: error, completion: completion)
-			
 		}
 	}
-	
+
 	func paymentAuthorizationViewControllerDidFinish(_ controller: PKPaymentAuthorizationViewController) {
 		controller.dismiss(animated: true, completion: nil)
 		self.viewModel.authorizationFinished()
 	}
-	
+
 }
